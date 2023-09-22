@@ -1,14 +1,13 @@
-import ComponentA from "../components/component-a";
-import ComponentB from "../components/component-b";
-
+import Bar from "../components/bar";
+import Foo from "../components/foo";
 
 
 const About = () => {
     return (
         <div>
             This is the about page using 
-            <ComponentA hasSomething={"This is coming from about!"}/>
-            <ComponentB hasSomethingElse={"This is also coming from about!"}/>
+            <Foo bar={"Lorem ipsum"}/>
+            <Bar foo={"Lorem ipsum dolor sit amet, consectetur adipiscing elit."}/>
         </div>
     );
 }
